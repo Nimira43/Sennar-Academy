@@ -1,7 +1,7 @@
 const Dashboard = () => {
   return (
     <div>
-      Hello
+      Sennar Frontend Dashboard
     </div>
   )
 }
