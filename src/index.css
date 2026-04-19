@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Lumanosimo&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+  --main: #ff4500;
+  --dark: #111;
+  --light: #fffdfa;
+  --grey-1: #333;
+  --grey-2: #999;
+  --grey-3: #ccc;
+  --grey-4: #eee;
+  --grey-5: #fafafa;
+  --transitioning: all 0.5s ease-in-out;
+}
+
+* {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+}
+
+/* Reset */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--light);
+  color: var(--dark);
+}
+
+.logo-font {
+  font-family: 'Lumanosimo', cursive;
+}
+
+.transitioning {
+  transition: var(--transitioning);
+}
+
+/* Navbar */
+.navbar {
+  background: var(--dark);
+  color: var(--light);
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-links a {
+  color: var(--grey-3);
+  text-decoration: none;
+  margin-left: 1.5rem;
+  font-weight: 400;
+}
+
+.nav-links a:hover {
+  color: var(--light);
+}
+
+/* Table container */
+.table-container {
+  max-width: 1100px;
+  margin: 2rem auto;
+  background: var(--light);
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th {
+  background: var(--dark);
+  color: var(--light);
+  padding: 0.75rem;
+  text-align: left;
+}
+
+td {
+  padding: 0.75rem;
+  border-bottom: 1px solid var(--grey-4);
+}
+
+tr:hover {
+  background: var(--grey-5);
+}
