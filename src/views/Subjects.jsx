@@ -18,7 +18,9 @@ export default function Subjects() {
 
   return (
     <div className='table-container transitioning'>
-      <h2>Subjects</h2>
+      <h2 className='table-title'>
+        Subjects
+      </h2>
 
       <input
         className='search-input'

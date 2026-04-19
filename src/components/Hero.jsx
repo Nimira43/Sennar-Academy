@@ -4,9 +4,6 @@ export default function Hero() {
       <h1 className='logo-font hero-title'>
         Sennar Academy
       </h1>
-      <p className='hero-tagline'>
-        A clean visual explorer for academic structures.
-      </p>
 
       <div className='hero-buttons'>
         <a

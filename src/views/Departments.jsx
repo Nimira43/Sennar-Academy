@@ -17,7 +17,9 @@ export default function Departments() {
 
   return (
     <div className='table-container transitioning'>
-      <h2>Departments</h2>
+      <h2 className='table-title'>
+        Departments
+      </h2>
 
       <input
         className='search-input'
